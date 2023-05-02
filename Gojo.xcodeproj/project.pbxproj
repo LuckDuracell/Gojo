@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1C57012A0064F30071EDE5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C57002A0064F30071EDE5 /* SearchBar.swift */; };
 		0A46E23929EE70E500A7E941 /* GojoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46E23829EE70E500A7E941 /* GojoApp.swift */; };
 		0A46E23B29EE70E600A7E941 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46E23A29EE70E600A7E941 /* ContentView.swift */; };
 		0A46E23D29EE70E600A7E941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A46E23C29EE70E600A7E941 /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		0A46E24B29EE70E600A7E941 /* GojoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46E24A29EE70E600A7E941 /* GojoTests.swift */; };
 		0A46E25529EE70E600A7E941 /* GojoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46E25429EE70E600A7E941 /* GojoUITests.swift */; };
 		0A46E25729EE70E600A7E941 /* GojoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46E25629EE70E600A7E941 /* GojoUITestsLaunchTests.swift */; };
+		0AB94FB429F9D52F0092E1A7 /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB94FB329F9D52F0092E1A7 /* WebsiteView.swift */; };
+		0AB94FED29FAFA910092E1A7 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB94FEC29FAFA910092E1A7 /* MainScreen.swift */; };
+		0AB94FEF29FAFB360092E1A7 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB94FEE29FAFB360092E1A7 /* FavoritesView.swift */; };
+		0AB94FF329FAFB470092E1A7 /* PastSearchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB94FF229FAFB470092E1A7 /* PastSearchesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1C57002A0064F30071EDE5 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		0A46E23529EE70E500A7E941 /* Gojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A46E23829EE70E500A7E941 /* GojoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojoApp.swift; sourceTree = "<group>"; };
 		0A46E23A29EE70E600A7E941 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,11 @@
 		0A46E25029EE70E600A7E941 /* GojoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GojoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A46E25429EE70E600A7E941 /* GojoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojoUITests.swift; sourceTree = "<group>"; };
 		0A46E25629EE70E600A7E941 /* GojoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AB94FB229F8431A0092E1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0AB94FB329F9D52F0092E1A7 /* WebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
+		0AB94FEC29FAFA910092E1A7 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		0AB94FEE29FAFB360092E1A7 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		0AB94FF229FAFB470092E1A7 /* PastSearchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastSearchesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +106,14 @@
 		0A46E23729EE70E500A7E941 /* Gojo */ = {
 			isa = PBXGroup;
 			children = (
+				0AB94FB229F8431A0092E1A7 /* Info.plist */,
 				0A46E23829EE70E500A7E941 /* GojoApp.swift */,
 				0A46E23A29EE70E600A7E941 /* ContentView.swift */,
+				0AB94FEC29FAFA910092E1A7 /* MainScreen.swift */,
+				0A1C57002A0064F30071EDE5 /* SearchBar.swift */,
+				0AB94FEE29FAFB360092E1A7 /* FavoritesView.swift */,
+				0AB94FF229FAFB470092E1A7 /* PastSearchesView.swift */,
+				0AB94FB329F9D52F0092E1A7 /* WebsiteView.swift */,
 				0A46E23C29EE70E600A7E941 /* Assets.xcassets */,
 				0A46E23E29EE70E600A7E941 /* Gojo.entitlements */,
 				0A46E23F29EE70E600A7E941 /* Preview Content */,
@@ -259,7 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1C57012A0064F30071EDE5 /* SearchBar.swift in Sources */,
+				0AB94FF329FAFB470092E1A7 /* PastSearchesView.swift in Sources */,
+				0AB94FEF29FAFB360092E1A7 /* FavoritesView.swift in Sources */,
+				0AB94FED29FAFA910092E1A7 /* MainScreen.swift in Sources */,
 				0A46E23B29EE70E600A7E941 /* ContentView.swift in Sources */,
+				0AB94FB429F9D52F0092E1A7 /* WebsiteView.swift in Sources */,
 				0A46E23929EE70E500A7E941 /* GojoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,17 +441,19 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gojo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -437,10 +461,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = luckdev.Gojo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,17 +483,19 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gojo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -475,10 +503,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = luckdev.Gojo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
